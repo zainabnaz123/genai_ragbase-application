@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "project-2"
+version = "0.1.0"
+description = ""
+authors = ["shakeela11 <nazshakeela41@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.1"
+langchain-community = "^0.3.1"
+langchain-core = "^0.3.6"
+langchain-openai = "^0.2.1"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^2.0.0"
+huggingface-hub = "^0.25.1"
+transformers = "^4.45.1"
+bs4 = "^0.0.2"
+langchain-chroma = "^0.1.4"
+faiss-cpu = "^1.8.0.post1"
+langchainhub = "^0.1.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
